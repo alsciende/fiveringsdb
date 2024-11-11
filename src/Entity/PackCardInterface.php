@@ -10,7 +10,7 @@ interface PackCardInterface
 
     public function getPack(): ?Pack;
 
-    public function getPosition(): ?string;
+    public function getPosition(): ?int;
 
     public function getIllustrator(): ?string;
 

@@ -42,7 +42,13 @@ class CardRepository extends ServiceEntityRepository
         $searchConditions = $this->syntaxDecoder->decode($query);
         $queryBuilder = $this->searchQueryBuilder->buildQuery($searchConditions);
 
-        return $queryBuilder->orderBy("c.{$sort}")->setCacheable(false);
+        if ($sort === 'position') {
+            $queryBuilder->orderBy("p.shorthand")->addOrderBy("pc.position");
+        } else {
+            $queryBuilder->orderBy("c.{$sort}");
+        }
+
+        return $queryBuilder->setCacheable(false);
     }
 
     /**

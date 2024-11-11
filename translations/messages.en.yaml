@@ -17,4 +17,5 @@ card_search_sort_name: Sort by Name
 card_search_sort_clan: Sort by Clan
 card_search_sort_type: Sort by Type
 card_search_sort_cost: Sort by Cost
+card_search_sort_position: Sort by Pack/Position
 card_search_trait_input_label: Trait

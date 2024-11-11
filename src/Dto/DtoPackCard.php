@@ -8,7 +8,7 @@ class DtoPackCard
 {
     public string $cardId;
     public string $packId;
-    public string $position;
+    public int $position;
     public int $quantity;
     public string $illustrator;
     public string $flavorText;

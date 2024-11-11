@@ -45,6 +45,7 @@ class SimpleCardSearchType extends AbstractType
                     'card_search_sort_clan' => 'clan',
                     'card_search_sort_type' => 'type',
                     'card_search_sort_cost' => 'cost',
+                    'card_search_sort_position' => 'position',
                 ],
                 'empty_data' => 'name',
             ])
