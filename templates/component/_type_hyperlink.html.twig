@@ -1,0 +1,6 @@
+<a href="{{ path('app_search_cards', {'q':card.typeQuery()}) }}" class="text-decoration-none">
+{{ card.type.value | trans({}, 'types') }}
+{% if card.subtypes | length > 0 %}
+    &mdash; {{ card.formatSubtypes() }}
+{% endif %}
+    </a>

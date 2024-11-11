@@ -1,0 +1,53 @@
+{% for card in pagerfanta %}
+    <div class="row my-2">
+        <div class="col-1 d-none d-lg-block">
+            <ul class="nav nav-pills mb-3 flex-column align-items-end justify-content-center h-100" id="pills-tab"
+                role="tablist">
+                {% for i, packCard in card.packCards %}
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">{{ packCard.pack.shorthand }}</button>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-3">
+            <div class="tab-content" id="pills-tabContent">
+                {% for i, packCard in card.packCards %}
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                         aria-labelledby="pills-home-tab" tabindex="0">
+                        {% include 'component/_card_image.html.twig' %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col border">
+            <h2 class="mt-2">
+                <a href="{{ path('app_card', {id:card.id}) }}" class="card-name card-name-display">
+                    {{ card.name }}
+                </a>
+            </h2>
+            <p>
+                Faction: {% include 'component/_faction_hyperlink.html.twig' with {faction:card.faction} %}
+            </p>
+            {% if card.cost is not null %}
+            <p>
+                Cost: {{ card.cost }}
+            </p>
+            {% endif %}
+            <p>
+                Type: {% include 'component/_type_hyperlink.html.twig' %}
+            </p>
+            {% if card.type.value == 'unit' %}
+                <p>
+                    Attack: {{ card.attack }} &ndash;
+                    Armor: {{ card.armor }} &ndash;
+                    Health: {{ card.health }} {{ card.citizenToken | tokens }}
+                </p>
+            {% endif %}
+            <hr>
+            {% include 'component/_card_effect.html.twig' %}
+        </div>
+    </div>
+{% endfor %}

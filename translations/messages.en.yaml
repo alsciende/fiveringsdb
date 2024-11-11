@@ -1,0 +1,19 @@
+card_search_cost_input_label: Cost
+card_search_cost_input_placeholder: ""
+card_search_clan_input_label: Clan
+card_search_clan_input_placeholder: ""
+card_search_illustrator_input_label: Illustrator
+card_search_input_placeholder: Card Search
+card_search_name_input_label: Card Name
+card_search_pack_input_label: Card Set
+card_search_pack_input_placeholder: ""
+card_search_submit_label: Search
+card_search_subtype_input_label: Subtype
+card_search_text_input_label: Card Text
+card_search_type_input_label: Type
+card_search_type_input_placeholder: ""
+card_search_search_button_label: Search
+card_search_sort_name: Sort by Name
+card_search_sort_clan: Sort by Clan
+card_search_sort_type: Sort by Type
+card_search_sort_cost: Sort by Cost

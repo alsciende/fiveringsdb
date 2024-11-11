@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col">
+        <h1 class="card-name card-name-display">{{ card.name }}</h1>
+        <p>
+            Faction: {% include 'component/_faction_hyperlink.html.twig' with {faction:card.faction} %}
+        </p>
+        {% if card.cost is not null %}
+            <p>
+                Cost: {{ card.cost }}
+            </p>
+        {% endif %}
+        <p>
+            Type: {% include 'component/_type_hyperlink.html.twig' %}
+        </p>
+        {% if card.type.value == 'unit' %}
+            <p>
+                Attack: {{ card.attack }} &ndash;
+                Armor: {{ card.armor }} &ndash;
+                Health: {{ card.health }} {{ card.citizenToken | tokens }}
+            </p>
+        {% endif %}
+        <hr>
+        {% include 'component/_card_effect.html.twig' %}
+    </div>
+    <div class="col">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            {% for i, packCard in card.packCards %}
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">{{ packCard.pack.name }}</button>
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            {% for i, packCard in card.packCards %}
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    {% include 'component/_card_image.html.twig' %}
+                    {% if packCard.illustrator %}
+                        <p class="text-center mt-2">Art by
+                            <a href="{{ path('app_search_cards', {q:'i:"'~packCard.illustrator~'"',view:'image'}) }}" class="text-decoration-none">{{ packCard.illustrator }}</a>
+                        </p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

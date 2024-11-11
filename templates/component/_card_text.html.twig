@@ -1,0 +1,23 @@
+<p>
+    Faction: <span class="icon-{{ card.faction.value }}"></span> {{ card.faction.value | trans({}, 'factions') }}
+</p>
+{% if card.cost is not null %}
+<p>
+    Cost: {{ card.cost }}
+</p>
+{% endif %}
+<p>
+    Type: {{ card.type.value | trans({}, 'types') }}
+    {% if card.subtypes | length > 0 %}
+        &mdash; {{ card.formatSubtypes() }}
+    {% endif %}
+</p>
+{% if card.type.value == 'unit' %}
+    <p>
+        Attack: {{ card.attack }} &ndash;
+        Armor: {{ card.armor }} &ndash;
+        Health: {{ card.health }} {{ card.citizenToken | tokens }}
+    </p>
+{% endif %}
+<hr>
+{% include 'component/_card_effect.html.twig' %}

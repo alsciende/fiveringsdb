@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ card.name }}{% endblock %}
+
+{% block body %}
+    <div class="container">
+        {% include 'component/card/_card_complete.html.twig' %}
+    </div>
+{% endblock %}

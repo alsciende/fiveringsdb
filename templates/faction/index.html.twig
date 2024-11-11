@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}<span class="icon-{{ card.faction.value }}"></span> {{ faction.value | trans({}, 'factions') }}{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1><span class="icon-{{ card.faction.value }}"></span> {{ faction.value | trans({}, 'factions') }}</h1>
+        {{ include('_card_list.html.twig') }}
+    </div>
+{% endblock %}
