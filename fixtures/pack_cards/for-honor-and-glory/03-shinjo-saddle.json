@@ -1,8 +1,9 @@
 {
     "card_id": "03-shinjo-saddle",
-    "flavor": "Among the Unicorn, one inherits more than just a daishō.",
+    "flavor_text": "Among the Unicorn, one inherits more than just a daishō.",
     "illustrator": "Jason Juta",
     "image_url": "https://lcg-cdn.fantasyflightgames.com/l5r/L5C03_39.jpg",
+    "pack_id": "for-honor-and-glory",
     "position": "39",
     "quantity": 3
 }

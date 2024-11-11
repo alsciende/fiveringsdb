@@ -1,8 +1,9 @@
 {
     "card_id": "41-ride-on",
-    "flavor": "\"Why would we settle down like some indulgent Bayushi, when we draw strength from our unique freedom?\" - Moto Rurame",
+    "flavor_text": "\"Why would we settle down like some indulgent Bayushi, when we draw strength from our unique freedom?\" - Moto Rurame",
     "illustrator": "Carlos Palma Cruchaga",
     "image_url": "https://i.imgur.com/Ngom9EZ.png",
-    "position": 130,
+    "pack_id": "peace-at-any-cost",
+    "position": "130",
     "quantity": 3
 }

@@ -1,8 +1,9 @@
 {
     "card_id": "40-overrun",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Aurelien Hubert",
     "image_url": "https://i.imgur.com/fgHS2Rw.png",
-    "position": 108,
+    "pack_id": "coils-of-power",
+    "position": "108",
     "quantity": 3
 }

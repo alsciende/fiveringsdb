@@ -1,8 +1,9 @@
 {
     "card_id": "41-lord-s-ascendancy",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Borja Pindado",
     "image_url": "https://i.imgur.com/Mh6ndKu.png",
-    "position": 111,
+    "pack_id": "peace-at-any-cost",
+    "position": "111",
     "quantity": 3
 }

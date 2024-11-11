@@ -1,8 +1,9 @@
 {
     "card_id": "10-court-novice",
-    "flavor": "\"Each detail you reveal is another tool your opponent will use against you.\" – Sensei Nagori",
+    "flavor_text": "\"Each detail you reveal is another tool your opponent will use against you.\" – Sensei Nagori",
     "illustrator": "Felipe Gaona",
     "image_url": "https://lcg-cdn.fantasyflightgames.com/l5r/L5C10_29.jpg",
+    "pack_id": "tainted-lands",
     "position": "29",
     "quantity": 3
 }

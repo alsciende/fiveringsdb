@@ -1,8 +1,9 @@
 {
     "card_id": "16-vassal-fields",
-    "flavor": "\"New daimyō, same tax.\"",
+    "flavor_text": "\"New daimyō, same tax.\"",
     "illustrator": "IFS",
     "image_url": "https://lcg-cdn.fantasyflightgames.com/l5r/L5C16_5.jpg",
+    "pack_id": "children-of-the-empire",
     "position": "5",
     "quantity": 1
 }

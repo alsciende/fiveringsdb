@@ -1,8 +1,9 @@
 {
     "card_id": "41-ikoma-ujiaki",
-    "flavor": "\"Our service to the throne has never wavered.\"",
+    "flavor_text": "\"Our service to the throne has never wavered.\"",
     "illustrator": "Surya Prasetya",
     "image_url": "https://i.imgur.com/AST9gnN.png",
-    "position": 117,
+    "pack_id": "peace-at-any-cost",
+    "position": "117",
     "quantity": 3
 }

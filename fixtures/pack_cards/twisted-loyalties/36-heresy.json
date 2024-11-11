@@ -1,8 +1,9 @@
 {
     "card_id": "36-heresy",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Guillaume Ducos",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C36_19.jpg",
-    "position": 19,
+    "pack_id": "twisted-loyalties",
+    "position": "19",
     "quantity": 3
 }

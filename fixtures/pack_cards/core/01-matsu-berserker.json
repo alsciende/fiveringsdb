@@ -1,8 +1,9 @@
 {
     "card_id": "01-matsu-berserker",
-    "flavor": "When the rage surged forth, none could stand against them.",
+    "flavor_text": "When the rage surged forth, none could stand against them.",
     "illustrator": "Hector Herrera",
     "image_url": "https://lcg-cdn.fantasyflightgames.com/l5r/L5C01_69.jpg",
+    "pack_id": "core",
     "position": "69",
     "quantity": 1
 }

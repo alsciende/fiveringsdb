@@ -1,8 +1,9 @@
 {
     "card_id": "30-logistics",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Joyce Maureira",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C30_45.jpg",
-    "position": 45,
+    "pack_id": "spreading-shadows",
+    "position": "45",
     "quantity": 3
 }

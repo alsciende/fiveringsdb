@@ -1,8 +1,9 @@
 {
     "card_id": "16-challenge-on-the-fields",
-    "flavor": "\"Face me, Shono! Fight me now!\" - Matsu Mitsuko",
+    "flavor_text": "\"Face me, Shono! Fight me now!\" - Matsu Mitsuko",
     "illustrator": "Tomas Muir",
     "image_url": "https://lcg-cdn.fantasyflightgames.com/l5r/L5C16_75.jpg",
+    "pack_id": "children-of-the-empire",
     "position": "75",
     "quantity": 3
 }

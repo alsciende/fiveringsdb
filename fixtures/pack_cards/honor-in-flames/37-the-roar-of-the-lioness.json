@@ -1,8 +1,9 @@
 {
     "card_id": "37-the-roar-of-the-lioness",
-    "flavor": "\"I am a samurai of the Lion Clan, and I can no longer bear to see it kept low.\" - Matsu Tsuko",
+    "flavor_text": "\"I am a samurai of the Lion Clan, and I can no longer bear to see it kept low.\" - Matsu Tsuko",
     "illustrator": "Stormbrush",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C37_24.jpg",
-    "position": 24,
+    "pack_id": "honor-in-flames",
+    "position": "24",
     "quantity": 3
 }

@@ -1,8 +1,9 @@
 {
     "card_id": "39-solitary-hero",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Neno Vecia",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C39_70.jpg",
-    "position": 70,
+    "pack_id": "the-temptation-of-the-scorpion",
+    "position": "70",
     "quantity": 3
 }

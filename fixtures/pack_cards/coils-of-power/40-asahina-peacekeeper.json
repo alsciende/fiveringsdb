@@ -1,8 +1,9 @@
 {
     "card_id": "40-asahina-peacekeeper",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Guillaume Ducos",
     "image_url": "https://i.imgur.com/iWWiA5n.png",
-    "position": 91,
+    "pack_id": "coils-of-power",
+    "position": "91",
     "quantity": 3
 }

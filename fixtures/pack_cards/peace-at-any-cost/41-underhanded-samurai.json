@@ -1,8 +1,9 @@
 {
     "card_id": "41-underhanded-samurai",
-    "flavor": "\"Confront only your enemy's weaknesses, never their strengths.\" - Bayushi's Lies",
+    "flavor_text": "\"Confront only your enemy's weaknesses, never their strengths.\" - Bayushi's Lies",
     "illustrator": "Drew Baker",
     "image_url": "https://i.imgur.com/d2ZHxdw.png",
-    "position": 120,
+    "pack_id": "peace-at-any-cost",
+    "position": "120",
     "quantity": 3
 }

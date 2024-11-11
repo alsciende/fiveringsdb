@@ -1,8 +1,9 @@
 {
     "card_id": "13-dispatch",
-    "flavor": "",
+    "flavor_text": "",
     "illustrator": "Wen Juinn",
     "image_url": "https://lcg-cdn.fantasyflightgames.com/l5r/L5C13_99.jpg",
+    "pack_id": "all-and-nothing",
     "position": "99",
     "quantity": 3
 }

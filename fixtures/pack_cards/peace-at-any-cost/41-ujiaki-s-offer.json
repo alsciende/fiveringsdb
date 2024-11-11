@@ -1,8 +1,9 @@
 {
     "card_id": "41-ujiaki-s-offer",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Kanadekana",
     "image_url": "https://i.imgur.com/pRyIIbt.png",
-    "position": 126,
+    "pack_id": "peace-at-any-cost",
+    "position": "126",
     "quantity": 3
 }

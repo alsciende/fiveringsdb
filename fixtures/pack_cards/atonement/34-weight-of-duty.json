@@ -1,8 +1,9 @@
 {
     "card_id": "34-weight-of-duty",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Asep Ariyanto",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C34_117.jpg",
-    "position": 117,
+    "pack_id": "atonement",
+    "position": "117",
     "quantity": 3
 }

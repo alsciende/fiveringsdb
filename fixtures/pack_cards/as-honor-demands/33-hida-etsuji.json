@@ -1,8 +1,9 @@
 {
     "card_id": "33-hida-etsuji",
-    "flavor": "\"Let them come. We are overdue for a glorious victory.\"",
+    "flavor_text": "\"Let them come. We are overdue for a glorious victory.\"",
     "illustrator": "Felipe Gaona",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C33_97.jpg",
-    "position": 97,
+    "pack_id": "as-honor-demands",
+    "position": "97",
     "quantity": 3
 }

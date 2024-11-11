@@ -1,8 +1,9 @@
 {
     "card_id": "19-a-perfect-cut",
-    "flavor": "\"The quality of a warrior's skill can be measured in a single stroke\" - Book of Sun Tao",
+    "flavor_text": "\"The quality of a warrior's skill can be measured in a single stroke\" - Book of Sun Tao",
     "illustrator": "David Horn",
     "image_url": "https://lcg-cdn.fantasyflightgames.com/l5r/L5C19_22.jpg",
+    "pack_id": "for-the-empire",
     "position": "22",
     "quantity": 3
 }

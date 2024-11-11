@@ -1,8 +1,9 @@
 {
     "card_id": "40-ancestral-sight",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Lukas Banas",
     "image_url": "https://i.imgur.com/KsmZUH0.png",
-    "position": 104,
+    "pack_id": "coils-of-power",
+    "position": "104",
     "quantity": 3
 }

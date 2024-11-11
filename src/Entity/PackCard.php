@@ -29,7 +29,7 @@ class PackCard extends AbstractPackCard
     private ?int $quantity = null;
 
     #[ORM\Column]
-    private ?int $position = null;
+    private ?string $position = null;
 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $illustrator = null;
@@ -57,17 +57,14 @@ class PackCard extends AbstractPackCard
         return $this;
     }
 
-    #[\Override]
-    public function getPosition(): ?int
+    public function getPosition(): ?string
     {
         return $this->position;
     }
 
-    public function setPosition(?int $position): static
+    public function setPosition(?string $position): void
     {
         $this->position = $position;
-
-        return $this;
     }
 
     #[\Override]

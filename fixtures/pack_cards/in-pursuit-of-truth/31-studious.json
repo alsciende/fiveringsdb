@@ -1,8 +1,9 @@
 {
     "card_id": "31-studious",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Hai Hoang",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C31_67.jpg",
-    "position": 67,
+    "pack_id": "in-pursuit-of-truth",
+    "position": "67",
     "quantity": 3
 }

@@ -1,8 +1,9 @@
 {
     "card_id": "39-an-agreeable-arrangement",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Joshua Cairos",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C39_69.jpg",
-    "position": 69,
+    "pack_id": "the-temptation-of-the-scorpion",
+    "position": "69",
     "quantity": 3
 }

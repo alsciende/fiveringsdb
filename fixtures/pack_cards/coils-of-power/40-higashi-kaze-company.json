@@ -1,8 +1,9 @@
 {
     "card_id": "40-higashi-kaze-company",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Imad Awan",
     "image_url": "https://i.imgur.com/THVIS1Z.png",
-    "position": 99,
+    "pack_id": "coils-of-power",
+    "position": "99",
     "quantity": 3
 }

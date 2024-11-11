@@ -1,8 +1,9 @@
 {
     "card_id": "40-final-whisper",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Logan Feliciano",
     "image_url": "https://i.imgur.com/50Idgdc.png",
-    "position": 107,
+    "pack_id": "coils-of-power",
+    "position": "107",
     "quantity": 3
 }

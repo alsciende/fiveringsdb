@@ -1,8 +1,9 @@
 {
     "card_id": "14-kitsu-warrior",
-    "flavor": "",
+    "flavor_text": "",
     "illustrator": "Antonio Jose Manzanedo",
     "image_url": "https://lcg-cdn.fantasyflightgames.com/l5r/L5C14_107.jpg",
+    "pack_id": "elements-unbound",
     "position": "107",
     "quantity": 3
 }

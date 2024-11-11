@@ -1,8 +1,9 @@
 {
     "card_id": "33-honor-s-reward",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "John Anthony De Giovanni",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C33_95.jpg",
-    "position": 95,
+    "pack_id": "as-honor-demands",
+    "position": "95",
     "quantity": 3
 }

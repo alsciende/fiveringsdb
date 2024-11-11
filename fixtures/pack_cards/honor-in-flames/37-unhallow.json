@@ -1,8 +1,9 @@
 {
     "card_id": "37-unhallow",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Imad Awan",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C37_40.jpg",
-    "position": 40,
+    "pack_id": "honor-in-flames",
+    "position": "40",
     "quantity": 3
 }

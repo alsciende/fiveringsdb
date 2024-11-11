@@ -1,8 +1,9 @@
 {
     "card_id": "33-command-by-name",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Pavel Kolomeyets",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C33_114.jpg",
-    "position": 114,
+    "pack_id": "as-honor-demands",
+    "position": "114",
     "quantity": 3
 }

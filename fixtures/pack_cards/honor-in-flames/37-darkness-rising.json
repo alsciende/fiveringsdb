@@ -1,8 +1,9 @@
 {
     "card_id": "37-darkness-rising",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Apterus",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C37_36.jpg",
-    "position": 36,
+    "pack_id": "honor-in-flames",
+    "position": "36",
     "quantity": 3
 }

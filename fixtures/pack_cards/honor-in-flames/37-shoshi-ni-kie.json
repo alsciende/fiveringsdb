@@ -1,8 +1,9 @@
 {
     "card_id": "37-shoshi-ni-kie",
-    "flavor": "\"If it gets me through the day, it is enough.\"",
+    "flavor_text": "\"If it gets me through the day, it is enough.\"",
     "illustrator": "Eli Ring",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C37_38.jpg",
-    "position": 38,
+    "pack_id": "honor-in-flames",
+    "position": "38",
     "quantity": 3
 }

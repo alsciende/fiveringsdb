@@ -1,8 +1,9 @@
 {
     "card_id": "41-cleanse-the-empire",
-    "flavor": null,
+    "flavor_text": "",
     "illustrator": "Imad Awan",
     "image_url": "https://i.imgur.com/CIVwvuS.png",
-    "position": 128,
+    "pack_id": "peace-at-any-cost",
+    "position": "128",
     "quantity": 3
 }

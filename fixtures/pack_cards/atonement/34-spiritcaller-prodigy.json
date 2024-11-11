@@ -1,8 +1,9 @@
 {
     "card_id": "34-spiritcaller-prodigy",
-    "flavor": "\"The souls of the last kitsu remain within each of us, that they might one day return in glory.\" - Kitsu Takeko",
+    "flavor_text": "\"The souls of the last kitsu remain within each of us, that they might one day return in glory.\" - Kitsu Takeko",
     "illustrator": "Andreia Ugrai",
     "image_url": "http://lcg-cdn.fantasyflightgames.com/l5r/L5C34_133.jpg",
-    "position": 133,
+    "pack_id": "atonement",
+    "position": "133",
     "quantity": 3
 }
