@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a conflict, if you have fewer cards in your hand than your opponent - as an additional cost for your opponent to play an event during this conflict, that opponent must give you 1 honor. (Max 1 per conflict.)",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

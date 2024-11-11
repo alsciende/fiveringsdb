@@ -29,5 +29,5 @@
         "dojo"
     ],
     "type": "province",
-    "unique": true
+    "uniqueness": true
 }

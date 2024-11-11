@@ -5,9 +5,7 @@
     "clan": "crab",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action: </b>During a conflict, sacrifice a <i>(friendly)</i> defending character and choose an attacking character - set the attacking character's [conflict-military] skill to 0 until the end of the conflict.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

@@ -12,7 +12,7 @@
     "id": "34-flank-the-enemy",
     "influence_cost": 3,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Flank the Enemy",

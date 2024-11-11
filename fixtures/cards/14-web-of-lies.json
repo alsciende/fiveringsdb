@@ -27,5 +27,5 @@
     "text": "X is equal to twice the bid on your honor dial.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

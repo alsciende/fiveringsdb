@@ -12,7 +12,7 @@
     "id": "40-repentant-legion",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "9",
     "military_bonus": null,
     "name": "Repentant Legion",

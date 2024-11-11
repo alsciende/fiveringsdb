@@ -5,9 +5,7 @@
     "clan": "dragon",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -29,5 +27,5 @@
         "technique"
     ],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

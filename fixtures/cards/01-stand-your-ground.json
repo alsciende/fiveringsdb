@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Interrupt:</b> When an honored character you control would leave play – instead discard that character's status token.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

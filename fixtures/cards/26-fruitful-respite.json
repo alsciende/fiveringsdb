@@ -5,9 +5,7 @@
     "clan": "crab",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Reaction:</b> After an opponent passes on declaring a conflict, if he or she controls 1 or more ready characters - gain 2 fate.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

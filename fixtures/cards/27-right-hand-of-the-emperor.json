@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": 3,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "If you are more honorable than an opponent, you can play this card from your discard pile.<br><b>Action:</b> Choose up to 6 printed cost worth of <em>Bushi</em> characters you control - ready each of those characters. Put this card on the bottom of its owner's conflict deck.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

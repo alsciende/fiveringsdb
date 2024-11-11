@@ -12,7 +12,7 @@
     "id": "38-ki-alignment",
     "influence_cost": 1,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Ki Alignment",

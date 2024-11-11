@@ -12,7 +12,7 @@
     "id": "30-suffer-the-consequences",
     "influence_cost": 2,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Suffer the Consequences",

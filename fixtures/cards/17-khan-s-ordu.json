@@ -27,5 +27,5 @@
     "text": "<b>Reaction:</b> After this province is revealed - if the current conflict is [conflict-political], switch the conflict type. Each conflict declared this phase is [conflict-military] instead of its normal type.",
     "traits": [],
     "type": "province",
-    "unique": true
+    "uniqueness": true
 }

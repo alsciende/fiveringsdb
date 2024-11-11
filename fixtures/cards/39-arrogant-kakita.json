@@ -12,7 +12,7 @@
     "id": "39-arrogant-kakita",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "3",
     "military_bonus": null,
     "name": "Arrogant Kakita",

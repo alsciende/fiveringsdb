@@ -12,7 +12,7 @@
     "id": "37-raze-to-the-ground",
     "influence_cost": 1,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Raze to the Ground",

@@ -27,5 +27,5 @@
     "text": "<em>Void</em> role only.<br>While resolving conflicts at this province, each character counts its combined [conflict-military] and [conflict-political] skill.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

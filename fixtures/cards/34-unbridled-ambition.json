@@ -14,7 +14,7 @@
     "id": "34-unbridled-ambition",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Unbridled Ambition",

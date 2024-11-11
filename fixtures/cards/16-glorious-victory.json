@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": 3,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Reaction:</b> After you break a province during a [conflict-military] conflict – honor each character you control.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

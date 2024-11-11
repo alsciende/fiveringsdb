@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 2,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a conflict - move each participating <em>Cavalry</em> character you control home. Then, choose any number of <em>Cavalry</em> character you control and move them to the conflict.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

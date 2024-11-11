@@ -5,9 +5,7 @@
     "clan": "scorpion",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "Play only if you are less honorable than an opponent.<br><b>Action:</b> During a conflict – put a <em>Shinobi</em> character into play from your hand or provinces in the conflict. That character enters play dishonored.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

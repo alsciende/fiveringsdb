@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 2,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Earth</em> role only.<br><b>Action:</b> Choose any number of characters with no fate that have a total printed cost of 6 or lower - ready each of those characters.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

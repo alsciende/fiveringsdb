@@ -5,9 +5,7 @@
     "clan": "scorpion",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Earth</em> role only.<br><b>Action:</b> During a conflict, dishonor a <i>(friendly)</i> <em>Shinobi</em> character. Choose a participating character – until the end of the conflict, that character gets -4[conflict-military].",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

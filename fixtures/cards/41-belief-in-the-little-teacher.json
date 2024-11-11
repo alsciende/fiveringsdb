@@ -12,7 +12,7 @@
     "id": "41-belief-in-the-little-teacher",
     "influence_cost": 2,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": "+0",
     "name": "Belief in the Little Teacher",

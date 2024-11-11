@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Interrupt:</b> When a duel that targets a character you control would resolve - cancel the duel.<br><i>Errata from RRG v2.0</i>",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

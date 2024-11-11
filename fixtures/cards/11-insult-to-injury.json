@@ -5,9 +5,7 @@
     "clan": "crane",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Reaction:</b> After a <em>Duelist</em> character you control wins a duel – dishonor the losing character.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

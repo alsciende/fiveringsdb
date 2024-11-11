@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -29,5 +27,5 @@
         "item"
     ],
     "type": "attachment",
-    "unique": false
+    "uniqueness": false
 }

@@ -27,5 +27,5 @@
     "text": "<b>Reaction:</b> After this province is revealed – switch the contested ring with an unclaimed ring. <i>(The conflict retains its type.)</i>",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

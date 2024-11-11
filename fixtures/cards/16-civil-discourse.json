@@ -5,9 +5,7 @@
     "clan": "crane",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Earth</em> role only.<br><b>Action:</b> During a conflict, initiate a [conflict-political] duel against a character your opponent controls of his or her choice – resolve the duel. Until the end of the conflict, the duel’s loser gains: \"Increase the cost to play each card in your hand by 1.\"",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

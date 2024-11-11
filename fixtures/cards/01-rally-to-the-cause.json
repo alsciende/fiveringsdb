@@ -27,5 +27,5 @@
     "text": "<b>Reaction:</b> After this province is revealed – switch the conflict type. <i>(The conflict retains its element.)</i>",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a conflict, discard the Imperial Favor – set the base strength of the attacked province to 1 until the end of the conflict.<br><i>Errata from RRG v1.1</i>",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

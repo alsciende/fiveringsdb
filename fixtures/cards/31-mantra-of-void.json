@@ -12,7 +12,7 @@
     "id": "31-mantra-of-void",
     "influence_cost": 2,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Mantra of Void",

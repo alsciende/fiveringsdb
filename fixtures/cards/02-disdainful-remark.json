@@ -5,9 +5,7 @@
     "clan": "crane",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Keeper</em> role only.<br><b>Action:</b> During a conflict, if you control a participating <em>Courtier</em> character – until the end of the conflict, the attacked province gets +X strength. X is equal to the number of cards in your opponent's hand.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

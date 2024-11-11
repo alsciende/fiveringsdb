@@ -5,9 +5,7 @@
     "clan": "phoenix",
     "cost": 6,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": 0,
     "honor": null,
@@ -32,5 +30,5 @@
         "spirit"
     ],
     "type": "character",
-    "unique": true
+    "uniqueness": true
 }

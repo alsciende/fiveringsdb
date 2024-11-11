@@ -27,5 +27,5 @@
     "text": "During conflicts at this province, each participating character your opponent controls cannot be chosen as the target of an event and cannot have an attachment played on it if that card shares a clan affiliation with the character.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

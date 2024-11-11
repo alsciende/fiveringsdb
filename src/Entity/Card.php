@@ -72,16 +72,16 @@ class Card extends AbstractCard
     #[ORM\Column(nullable: true)]
     private ?int $influencePool = null;
 
-    #[ORM\Column(length: 5)]
+    #[ORM\Column(length: 5, nullable: true)]
     private ?string $military = null;
 
-    #[ORM\Column(length: 5)]
+    #[ORM\Column(length: 5, nullable: true)]
     private ?string $militaryBonus = null;
 
-    #[ORM\Column(length: 5)]
+    #[ORM\Column(length: 5, nullable: true)]
     private ?string $political = null;
 
-    #[ORM\Column(length: 5)]
+    #[ORM\Column(length: 5, nullable: true)]
     private ?string $politicalBonus = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true, enumType: Role::class)]
@@ -90,14 +90,14 @@ class Card extends AbstractCard
     #[ORM\Column(type: Types::STRING, enumType: Side::class)]
     private ?Side $side = null;
 
-    #[ORM\Column(length: 5)]
+    #[ORM\Column(length: 5, nullable: true)]
     private ?string $strength = null;
 
-    #[ORM\Column(length: 5)]
+    #[ORM\Column(length: 5, nullable: true)]
     private ?string $strengthBonus = null;
 
     #[ORM\Column]
-    private ?bool $isUnique = null;
+    private ?bool $uniqueness = null;
 
     /**
      * @var Collection<int, PackCard>
@@ -295,14 +295,14 @@ class Card extends AbstractCard
     }
 
     /**
-     * @param Element[]|null $elements
+     * @param string[]|Element[]|null $elements
      */
     public function setElements(?array $elements): void
     {
-        $this->elements = array_map(
-            fn (Element $element) => $element->value,
+        $this->elements = is_array($elements) ? array_map(
+            fn (string|Element $element) => $element instanceof Element ? $element->value : $element,
             $elements
-        );
+        ) : null;
     }
 
     public function getFate(): ?int
@@ -435,14 +435,14 @@ class Card extends AbstractCard
         $this->strengthBonus = $strengthBonus;
     }
 
-    public function getIsUnique(): ?bool
+    public function getUniqueness(): ?bool
     {
-        return $this->isUnique;
+        return $this->uniqueness;
     }
 
-    public function setIsUnique(?bool $isUnique): void
+    public function setUniqueness(?bool $uniqueness): void
     {
-        $this->isUnique = $isUnique;
+        $this->uniqueness = $uniqueness;
     }
 
     /**

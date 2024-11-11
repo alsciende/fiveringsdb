@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 2,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Seeker</em> role only.<br>While attached character is attacking, the contested ring gains the element of your role. <i>(If attached character wins the conflict as an attacker, you may choose which of its ring effects to resolve.)</i>",
     "traits": [],
     "type": "attachment",
-    "unique": false
+    "uniqueness": false
 }

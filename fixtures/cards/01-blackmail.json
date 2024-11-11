@@ -5,9 +5,7 @@
     "clan": "scorpion",
     "cost": 3,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "Play only if you are less honorable than your opponent.<br><b>Action:</b> During a conflict, choose a character with printed cost 2 or lower controlled by your opponent – take control of that character until the end of the conflict.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

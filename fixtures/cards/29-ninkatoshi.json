@@ -29,5 +29,5 @@
         "city"
     ],
     "type": "province",
-    "unique": true
+    "uniqueness": true
 }

@@ -5,9 +5,7 @@
     "clan": "scorpion",
     "cost": null,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> If you have 6 or fewer honor, choose a dishonored character in you home area – discard that character's status token.",
     "traits": [],
     "type": "holding",
-    "unique": false
+    "uniqueness": false
 }

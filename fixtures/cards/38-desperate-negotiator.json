@@ -12,7 +12,7 @@
     "id": "38-desperate-negotiator",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "0",
     "military_bonus": null,
     "name": "Desperate Negotiator",

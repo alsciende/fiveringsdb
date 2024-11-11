@@ -5,9 +5,7 @@
     "clan": "crab",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Reaction:</b> After an opponent plays an event that chooses a [clan-crab] character you control as a target - place 1 fate on that character. (Max 1 per phase.)",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

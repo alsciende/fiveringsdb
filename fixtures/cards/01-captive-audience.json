@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a [conflict-political] conflict, lose 1 honor – change the conflict type to [conflict-military].",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

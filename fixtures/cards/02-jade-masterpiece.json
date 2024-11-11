@@ -5,9 +5,7 @@
     "clan": "dragon",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -30,5 +28,5 @@
         "jade"
     ],
     "type": "attachment",
-    "unique": true
+    "uniqueness": true
 }

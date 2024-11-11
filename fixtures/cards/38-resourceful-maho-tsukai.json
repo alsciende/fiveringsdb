@@ -12,7 +12,7 @@
     "id": "38-resourceful-maho-tsukai",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "2",
     "military_bonus": null,
     "name": "Resourceful Mahō-Tsukai",

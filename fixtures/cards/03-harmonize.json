@@ -5,9 +5,7 @@
     "clan": "phoenix",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Keeper</em> role only.<br><b>Action:</b> During a conflict in which you are the defending player, choose a defending character and an attacking character with equal or lower printed cost – move each chosen character home.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

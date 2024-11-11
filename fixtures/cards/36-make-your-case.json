@@ -12,7 +12,7 @@
     "id": "36-make-your-case",
     "influence_cost": 0,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Make Your Case",

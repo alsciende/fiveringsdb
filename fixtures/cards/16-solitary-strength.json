@@ -5,9 +5,7 @@
     "clan": "dragon",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Air</em> role only.<br>If attached character is participating in a conflict with 1 or more other characters you control, discard this attachment.<br><b>Reaction:</b> After attached character wins a conflict – gain 1 honor.",
     "traits": [],
     "type": "attachment",
-    "unique": false
+    "uniqueness": false
 }

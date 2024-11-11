@@ -12,7 +12,7 @@
     "id": "30-dispatch-to-nowhere",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Dispatch to Nowhere",

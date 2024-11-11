@@ -5,9 +5,7 @@
     "clan": "scorpion",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Void</em> role only.<br><b>Action:</b> During a conflict, if the bid on your honor dial is higher than your opponent’s, choose a participating character – discard that character’s status token and set its skills to their printed values until the end of the conflict. Its controller gains 2 honor.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

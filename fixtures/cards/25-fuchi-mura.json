@@ -29,5 +29,5 @@
         "village"
     ],
     "type": "province",
-    "unique": true
+    "uniqueness": true
 }

@@ -27,5 +27,5 @@
     "text": "<em>Earth</em> role only.<br><b>Reaction:</b> After this province is revealed – bow each character with printed cost 2 or lower.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

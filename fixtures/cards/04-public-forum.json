@@ -27,5 +27,5 @@
     "text": "Cannot be a stronghold province.<br><b>Interrupt:</b> When this province would be broken, if there are no honor tokens on it – place 1 honor token on it instead.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

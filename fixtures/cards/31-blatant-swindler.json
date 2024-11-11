@@ -12,7 +12,7 @@
     "id": "31-blatant-swindler",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "1",
     "military_bonus": null,
     "name": "Blatant Swindler",

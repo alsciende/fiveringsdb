@@ -12,7 +12,7 @@
     "id": "41-moto-conqueror",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "4",
     "military_bonus": null,
     "name": "Moto Conqueror",

@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Seeker</em> role only.<br><b>Reaction:</b> After you lose a [conflict-political] conflict, choose a <em>Bushi</em> character you control – put a <em>Weapon</em> attachment with printed cost 3 or lower into play from your hand or conflict discard pile, attached to that character.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

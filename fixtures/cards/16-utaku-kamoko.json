@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 4,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": 3,
     "honor": null,
@@ -31,5 +29,5 @@
         "battle-maiden"
     ],
     "type": "character",
-    "unique": true
+    "uniqueness": true
 }

@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 2,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": 1,
     "honor": null,
@@ -30,5 +28,5 @@
         "mantis-clan"
     ],
     "type": "character",
-    "unique": false
+    "uniqueness": false
 }

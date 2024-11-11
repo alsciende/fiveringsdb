@@ -5,9 +5,7 @@
     "clan": "dragon",
     "cost": null,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Reaction:</b> After you win a [conflict-political] conflict - look at 3 random cards in your opponent's hand.",
     "traits": [],
     "type": "holding",
-    "unique": false
+    "uniqueness": false
 }

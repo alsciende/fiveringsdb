@@ -12,7 +12,7 @@
     "id": "33-master-of-many-lifetimes",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "4",
     "military_bonus": null,
     "name": "Master of Many Lifetimes",

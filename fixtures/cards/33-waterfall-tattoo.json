@@ -12,7 +12,7 @@
     "id": "33-waterfall-tattoo",
     "influence_cost": 2,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": "+1",
     "name": "Waterfall Tattoo",

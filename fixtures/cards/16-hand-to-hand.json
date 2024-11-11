@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action: </b>During a [conflict-military] conflict, choose an attachment on a participating character - discard that attachment.  Then, your opponent may resolve this ability.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

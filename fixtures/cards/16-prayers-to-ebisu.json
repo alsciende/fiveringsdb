@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 3,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> Each player with 19 or more honor loses 4 honor. Each player with 6 or fewer honor gains 4 honor. Draw 1 card.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

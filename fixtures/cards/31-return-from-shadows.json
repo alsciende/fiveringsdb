@@ -12,7 +12,7 @@
     "id": "31-return-from-shadows",
     "influence_cost": 3,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Return From Shadows",

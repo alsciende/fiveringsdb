@@ -5,9 +5,7 @@
     "clan": "crab",
     "cost": null,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action: </b>During a [conflict-military] conflict in which you are defending, discard a card from your hand and choose a ready attacking character.  That character's controller selects one - bow that character, or remove 1 fate from it.",
     "traits": [],
     "type": "holding",
-    "unique": false
+    "uniqueness": false
 }

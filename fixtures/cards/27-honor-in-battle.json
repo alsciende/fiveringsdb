@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> If you have claimed a [conflict-military] ring, choose a character - honor that character.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

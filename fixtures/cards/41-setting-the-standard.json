@@ -12,7 +12,7 @@
     "id": "41-setting-the-standard",
     "influence_cost": 2,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": "+0",
     "name": "Setting the Standard",

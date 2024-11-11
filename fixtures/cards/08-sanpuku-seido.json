@@ -29,5 +29,5 @@
         "shrine"
     ],
     "type": "province",
-    "unique": true
+    "uniqueness": true
 }

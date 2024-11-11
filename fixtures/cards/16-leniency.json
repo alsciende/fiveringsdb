@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<em>Air</em> role only.<br><b>Interrupt:</b> When you would resolve a ring effect, choose a character with printed cost 2 or lower in your provinces – instead of resolving the ring effect, put that character into play.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

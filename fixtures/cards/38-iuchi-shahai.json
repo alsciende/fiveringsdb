@@ -12,7 +12,7 @@
     "id": "38-iuchi-shahai",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": true,
+    "uniqueness": true,
     "military": "2",
     "military_bonus": null,
     "name": "Iuchi Shahai",

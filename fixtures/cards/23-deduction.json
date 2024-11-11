@@ -5,9 +5,7 @@
     "clan": "dragon",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a [conflict-political] conflict, return a ring from your claimed ring pool to the unclaimed ring pool. Choose a participating character with printed cost 3 or lower - bow that character.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

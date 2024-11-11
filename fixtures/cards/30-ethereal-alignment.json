@@ -12,7 +12,7 @@
     "id": "30-ethereal-alignment",
     "influence_cost": 4,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Ethereal Alignment",

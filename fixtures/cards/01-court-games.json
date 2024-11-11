@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a [conflict-political] conflict, select one – choose and honor a participating character you control, or your opponent chooses and dishonors a participating character he or she controls. (Max 1 per conflict.)",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

@@ -5,9 +5,7 @@
     "clan": "crab",
     "cost": 4,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": 0,
     "honor": null,
@@ -30,5 +28,5 @@
         "earth"
     ],
     "type": "character",
-    "unique": false
+    "uniqueness": false
 }

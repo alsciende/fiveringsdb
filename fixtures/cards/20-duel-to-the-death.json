@@ -5,9 +5,7 @@
     "clan": "crane",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<br><b>Action:</b> During a conflict, initiate a [conflict-military] duel – your opponent may dishonor his or her character to refuse the duel. Otherwise, resolve the duel. Discard the duel's loser.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

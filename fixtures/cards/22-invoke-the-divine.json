@@ -5,9 +5,7 @@
     "clan": "phoenix",
     "cost": 3,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> Play up to 3 <em>Spell</em> cards with printed total cost 5 or less from your hand without paying their costs. <i>(This includes costs other than fate costs.)</i>",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

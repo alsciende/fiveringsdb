@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": null,
     "deck_limit": 1,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": 7,
     "glory": null,
     "honor": 13,
@@ -29,5 +27,5 @@
         "castle"
     ],
     "type": "stronghold",
-    "unique": false
+    "uniqueness": false
 }

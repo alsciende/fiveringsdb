@@ -27,5 +27,5 @@
     "text": "This province gets +2 strength while you have a <em>Water</em> role.<br><b>Interrupt:</b> When this province is broken, choose a defending character – move that character home.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

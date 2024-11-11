@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a [conflict-military] conflict, choose a participating <em>Bushi</em> character - that character gets +2[conflict-military] until the end of the conflict. If it wins the conflict, honor it.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

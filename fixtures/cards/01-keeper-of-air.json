@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": null,
     "deck_limit": 1,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -30,5 +28,5 @@
         "air"
     ],
     "type": "role",
-    "unique": false
+    "uniqueness": false
 }

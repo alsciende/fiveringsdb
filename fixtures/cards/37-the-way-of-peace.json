@@ -14,7 +14,7 @@
     "id": "37-the-way-of-peace",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "The Way of Peace",

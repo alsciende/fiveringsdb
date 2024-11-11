@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 3,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": 1,
     "honor": null,
@@ -31,5 +29,5 @@
         "scout"
     ],
     "type": "character",
-    "unique": true
+    "uniqueness": true
 }

@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": null,
     "deck_limit": 1,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": 7,
     "glory": null,
     "honor": 11,
@@ -29,5 +27,5 @@
         "fort"
     ],
     "type": "stronghold",
-    "unique": false
+    "uniqueness": false
 }

@@ -12,7 +12,7 @@
     "id": "34-iron-mountain-castle",
     "influence_cost": null,
     "influence_pool": 10,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Iron Mountain Castle",

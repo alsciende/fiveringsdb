@@ -12,7 +12,7 @@
     "id": "34-bayushi-kachiko",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": true,
+    "uniqueness": true,
     "military": "3",
     "military_bonus": null,
     "name": "Bayushi Kachiko",

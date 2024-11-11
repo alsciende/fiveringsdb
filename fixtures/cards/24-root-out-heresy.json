@@ -5,9 +5,7 @@
     "clan": "crab",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a [conflict-political] conflict - discard a random card from your opponent's hand. Until the end of the conflict, reduce the strength of the attacked province by X, where X is the cost of the discarded card.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

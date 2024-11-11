@@ -27,5 +27,5 @@
     "text": "<b>Interrupt:</b> When this province is broken – dishonor each attacking character and honor each defending character.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

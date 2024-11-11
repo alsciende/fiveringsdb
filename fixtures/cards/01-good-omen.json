@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "Play only if your honor bid is lower than an opponent's.<br><b>Action:</b> Choose a character with printed cost 3 or higher – place 1 fate on that character.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

@@ -12,7 +12,7 @@
     "id": "30-daidoji-marketplace",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Daidoji Marketplace",

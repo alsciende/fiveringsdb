@@ -27,5 +27,5 @@
     "text": "<b>Reaction:</b> After a conflict is declared against this province, choose a character with the highest printed cost among characters in play - bow that character.</i>",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": null,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> Sacrifice this holding, choose a <em>Weapon</em> attachment in your discard pile – return that attachment to your hand.",
     "traits": [],
     "type": "holding",
-    "unique": false
+    "uniqueness": false
 }

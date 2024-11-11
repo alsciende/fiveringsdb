@@ -12,7 +12,7 @@
     "id": "39-enraged",
     "influence_cost": 2,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": "+2",
     "name": "Enraged",

@@ -12,7 +12,7 @@
     "id": "34-agasha-sumiko",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": true,
+    "uniqueness": true,
     "military": "4",
     "military_bonus": null,
     "name": "Agasha Sumiko",

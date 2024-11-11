@@ -12,7 +12,7 @@
     "id": "36-khanbulak-benefactor",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "2",
     "military_bonus": null,
     "name": "Khanbulak Benefactor",

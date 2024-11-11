@@ -12,7 +12,7 @@
     "id": "29-field-of-ruin",
     "influence_cost": 0,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Field of Ruin",

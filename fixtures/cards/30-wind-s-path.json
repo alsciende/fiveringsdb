@@ -15,7 +15,7 @@
     "id": "30-wind-s-path",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": true,
+    "uniqueness": true,
     "military": null,
     "military_bonus": null,
     "name": "Wind's Path",

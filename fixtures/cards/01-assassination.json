@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a conflict, lose 3 honor. Choose a character with printed cost 2 or lower – discard that character. (Max 1 per round.)",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

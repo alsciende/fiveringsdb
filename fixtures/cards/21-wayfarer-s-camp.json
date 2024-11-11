@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": null,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During the dynasty phase - play two characters from your provinces. Then, turn a card in your provinces faceup.",
     "traits": [],
     "type": "holding",
-    "unique": false
+    "uniqueness": false
 }

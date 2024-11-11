@@ -12,7 +12,7 @@
     "id": "29-serene-ise-zumi",
     "influence_cost": 1,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "2",
     "military_bonus": null,
     "name": "Serene Ise Zumi",

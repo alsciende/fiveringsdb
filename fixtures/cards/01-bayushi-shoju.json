@@ -5,9 +5,7 @@
     "clan": "scorpion",
     "cost": 5,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": 2,
     "honor": null,
@@ -31,5 +29,5 @@
         "champion"
     ],
     "type": "character",
-    "unique": true
+    "uniqueness": true
 }

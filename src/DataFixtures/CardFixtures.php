@@ -22,7 +22,7 @@ class CardFixtures extends Fixture
     public function load(ObjectManager $manager): void
     {
         $finder = new Finder();
-        $finder->files()->in($this->projectDir . '/fixtures/cards/')->name('*.json');
+        $finder->files()->in($this->projectDir . '/fixtures/cards/')->name('*.json')->sortByName();
         foreach ($finder as $file) {
             try {
                 $card = $this->serializer->deserialize($file->getContents(), Card::class, 'json');

@@ -5,9 +5,7 @@
     "clan": "neutral",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> During a conflict, if you control a participating <em>Courtier</em> character, choose a participating character controlled by your opponent. Your opponent must select one – dishonor the chosen character or bow it.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

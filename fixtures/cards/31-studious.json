@@ -12,7 +12,7 @@
     "id": "31-studious",
     "influence_cost": 1,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": "+0",
     "name": "Studious",

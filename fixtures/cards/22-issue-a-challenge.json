@@ -5,9 +5,7 @@
     "clan": "crane",
     "cost": 0,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Reaction:</b> After a <em>Bushi</em> character you control attacks alone - your opponent cannot declare more than 1 character as a defender in this conflict.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

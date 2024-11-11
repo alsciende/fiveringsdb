@@ -12,7 +12,7 @@
     "id": "31-master-tactician",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "5",
     "military_bonus": null,
     "name": "Master Tactician",

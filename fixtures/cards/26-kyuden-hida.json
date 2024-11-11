@@ -5,9 +5,7 @@
     "clan": "crab",
     "cost": null,
     "deck_limit": 1,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": 7,
     "glory": null,
     "honor": 11,
@@ -29,5 +27,5 @@
         "castle"
     ],
     "type": "stronghold",
-    "unique": true
+    "uniqueness": true
 }

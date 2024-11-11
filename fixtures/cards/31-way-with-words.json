@@ -12,7 +12,7 @@
     "id": "31-way-with-words",
     "influence_cost": 2,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": "+0",
     "name": "Way With Words",

@@ -12,7 +12,7 @@
     "id": "33-seven-fold-palace",
     "influence_cost": null,
     "influence_pool": 10,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Seven Fold Palace",

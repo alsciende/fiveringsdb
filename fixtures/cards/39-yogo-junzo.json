@@ -12,7 +12,7 @@
     "id": "39-yogo-junzo",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": true,
+    "uniqueness": true,
     "military": "5",
     "military_bonus": null,
     "name": "Yogo Junzo",

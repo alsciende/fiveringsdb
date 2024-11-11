@@ -12,7 +12,7 @@
     "id": "36-kunshu",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": true,
+    "uniqueness": true,
     "military": null,
     "military_bonus": "+2",
     "name": "Kunshu",

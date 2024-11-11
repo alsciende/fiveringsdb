@@ -29,5 +29,5 @@
         "wasteland"
     ],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

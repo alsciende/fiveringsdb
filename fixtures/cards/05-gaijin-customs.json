@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Action:</b> If you control a [clan-unicorn] card, choose a non-[clan-unicorn] character – ready the chosen character.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

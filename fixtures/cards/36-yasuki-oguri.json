@@ -12,7 +12,7 @@
     "id": "36-yasuki-oguri",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": true,
+    "uniqueness": true,
     "military": "1",
     "military_bonus": null,
     "name": "Yasuki Oguri",

@@ -12,7 +12,7 @@
     "id": "37-reserve-tents",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Reserve Tents",

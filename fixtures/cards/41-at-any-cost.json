@@ -12,7 +12,7 @@
     "id": "41-at-any-cost",
     "influence_cost": 4,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "At Any Cost",

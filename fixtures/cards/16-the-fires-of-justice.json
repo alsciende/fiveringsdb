@@ -5,9 +5,7 @@
     "clan": "lion",
     "cost": 2,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Void</b> Role only.<br><b>Reaction: </b>After you win a [conflict-military] conflict, your opponent chooses a participating character he or she controls.  Select one - remove all fate from that character, or move any amount of fate from your opponent's fate pool onto that character.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

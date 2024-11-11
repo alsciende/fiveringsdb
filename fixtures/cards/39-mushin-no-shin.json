@@ -12,7 +12,7 @@
     "id": "39-mushin-no-shin",
     "influence_cost": 3,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Mushin no Shin",

@@ -12,7 +12,7 @@
     "id": "41-ride-on",
     "influence_cost": 1,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Ride On",

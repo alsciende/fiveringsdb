@@ -12,7 +12,7 @@
     "id": "30-butcher-of-the-fallen",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": "6",
     "military_bonus": null,
     "name": "Butcher of the Fallen",

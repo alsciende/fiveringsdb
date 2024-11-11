@@ -26,5 +26,5 @@
     "text": "Cannot be a stronghold province.<br><b>Action:</b> During a conflict at another province you control - move the contested ring to this province. It is now the attacked province.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

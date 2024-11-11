@@ -5,9 +5,7 @@
     "clan": "unicorn",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Interrupt:</b> When an attack is declared against a non-stronghold facedown province you control, before revealing that province - switch it with another facedown non-stronghold province you control.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

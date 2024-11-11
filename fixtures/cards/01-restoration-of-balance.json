@@ -27,5 +27,5 @@
     "text": "<b>Interrupt:</b> When this province is broken – your opponent discards cards from his or her hand until that player has 4 or fewer cards in hand.<br><i>Errata from RRG v9</i>",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

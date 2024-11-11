@@ -12,7 +12,7 @@
     "id": "36-overlooked-community",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Overlooked Community",

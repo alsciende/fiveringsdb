@@ -27,5 +27,5 @@
     "text": "<b>Interrupt:</b> When this province is broken – draw 3 cards.",
     "traits": [],
     "type": "province",
-    "unique": false
+    "uniqueness": false
 }

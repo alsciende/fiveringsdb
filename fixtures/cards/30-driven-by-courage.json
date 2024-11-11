@@ -14,7 +14,7 @@
     "id": "30-driven-by-courage",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Driven By Courage",

@@ -12,7 +12,7 @@
     "id": "40-castle-of-the-forgotten",
     "influence_cost": null,
     "influence_pool": 9,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Castle of the Forgotten",

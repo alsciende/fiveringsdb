@@ -12,7 +12,7 @@
     "id": "37-shape-the-flesh",
     "influence_cost": 1,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": "+1",
     "name": "Shape the Flesh",

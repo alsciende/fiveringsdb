@@ -12,7 +12,7 @@
     "id": "33-command-by-name",
     "influence_cost": 1,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Command By Name",

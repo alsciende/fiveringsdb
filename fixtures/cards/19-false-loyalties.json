@@ -5,9 +5,7 @@
     "clan": "scorpion",
     "cost": 1,
     "deck_limit": 3,
-    "elements": [
-        null
-    ],
+    "elements": null,
     "fate": null,
     "glory": null,
     "honor": null,
@@ -27,5 +25,5 @@
     "text": "<b>Reaction:</b> After an opponent wins a conflict, if he or she is more honorable than you, choose a participating character that opponent controls and a character in that opponent's home - switch those characters' locations.",
     "traits": [],
     "type": "event",
-    "unique": false
+    "uniqueness": false
 }

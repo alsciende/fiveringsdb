@@ -12,7 +12,7 @@
     "id": "34-sudden-tempest",
     "influence_cost": null,
     "influence_pool": null,
-    "is_unique": false,
+    "uniqueness": false,
     "military": null,
     "military_bonus": null,
     "name": "Sudden Tempest",
