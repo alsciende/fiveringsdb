@@ -3,9 +3,9 @@
     <tr>
         <th scope="col">Name</th>
         <th scope="col">Clan</th>
-        <th scope="col">Cost</th>
         <th scope="col">Type</th>
-        <th scope="col">Subtype</th>
+        <th scope="col">Traits</th>
+        <th scope="col">Cost</th>
     </tr>
     </thead>
     <tbody>
@@ -13,9 +13,9 @@
         <tr>
             <td><a href="{{ path('app_card', {id:card.id}) }}" class="card-name">{{ card.getName() }}</a></td>
             <td><span class="icon-{{ card.clan.value }}"></span> {{ card.clan.value | trans({}, 'clans') }}</td>
-            <td>{{ card.getCost() }}</td>
             <td>{{ card.type.value | trans({}, 'types') }}</td>
             <td>{{ card.formatTraits() }}</td>
+            <td>{{ card.getCost() }}</td>
         </tr>
     {% endfor %}
     </tbody>

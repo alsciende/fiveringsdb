@@ -25,9 +25,9 @@ class PackSearchQueryBuilder extends AbstractSearchQueryBuilder
         }
 
         if ($operator === Operator::EQ) {
-            $queryBuilder->andWhere("p.id = :{$identifier}");
+            $queryBuilder->andWhere("(p.id = :{$identifier} or p.shorthand = :{$identifier})");
         } else {
-            $queryBuilder->andWhere("p.id != :{$identifier}");
+            $queryBuilder->andWhere("(p.id != :{$identifier} and p.shorthand != :{$identifier})");
         }
 
         $queryBuilder->setParameter($identifier, $value);

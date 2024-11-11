@@ -1,9 +1,10 @@
 {
+    "cycle_id": "inheritance",
+    "ffg_id": "L5C23",
     "id": "a-champion-s-foresight",
     "name": "A Champion's Foresight",
     "position": 5,
-    "size": 22,
     "release_date": "2019-10-01",
-    "ffg_id": "L5C23",
-    "cycle_id": "inheritance"
+    "shorthand": "23",
+    "size": 22
 }

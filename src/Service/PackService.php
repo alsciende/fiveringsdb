@@ -16,6 +16,11 @@ class PackService
     ) {
     }
 
+    public function findAll()
+    {
+        return $this->repository->findBy([], array('username' => 'ASC'));
+    }
+
     /**
      * Return an array of id => name for all sets.
      *

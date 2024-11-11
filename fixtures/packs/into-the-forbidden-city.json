@@ -1,9 +1,10 @@
 {
+    "cycle_id": "imperial",
+    "ffg_id": "L5C04",
     "id": "into-the-forbidden-city",
     "name": "Into the Forbidden City",
     "position": 3,
-    "size": 20,
     "release_date": "2017-11-24",
-    "ffg_id": "L5C04",
-    "cycle_id": "imperial"
+    "shorthand": "04",
+    "size": 20
 }

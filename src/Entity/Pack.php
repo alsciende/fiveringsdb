@@ -21,6 +21,9 @@ class Pack extends AbstractPack
     #[ORM\Column(type: Types::STRING)]
     private ?string $id = null;
 
+    #[ORM\Column(type: Types::STRING, length: 5)]
+    private ?string $shorthand = null;
+
     #[ORM\Column(type: Types::STRING, length: 255)]
     private ?string $name = null;
 
@@ -53,6 +56,16 @@ class Pack extends AbstractPack
         $this->id = $id;
 
         return $this;
+    }
+
+    public function getShorthand(): ?string
+    {
+        return $this->shorthand;
+    }
+
+    public function setShorthand(?string $shorthand): void
+    {
+        $this->shorthand = $shorthand;
     }
 
     #[\Override]

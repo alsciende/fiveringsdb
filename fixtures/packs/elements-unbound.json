@@ -1,9 +1,10 @@
 {
+    "cycle_id": "elemental",
+    "ffg_id": "L5C14",
     "id": "elements-unbound",
     "name": "Elements Unbound",
     "position": 6,
-    "size": 20,
     "release_date": "2018-08-02",
-    "ffg_id": "L5C14",
-    "cycle_id": "elemental"
+    "shorthand": "14",
+    "size": 20
 }

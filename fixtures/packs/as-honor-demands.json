@@ -1,9 +1,10 @@
 {
+    "cycle_id": "dominion",
+    "ffg_id": "L5C33",
     "id": "as-honor-demands",
     "name": "As Honor Demands",
     "position": 5,
-    "size": 24,
     "release_date": "2020-09-04",
-    "ffg_id": "L5C33",
-    "cycle_id": "dominion"
+    "shorthand": "33",
+    "size": 24
 }

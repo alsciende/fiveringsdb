@@ -19,6 +19,14 @@ class PackRepository extends ServiceEntityRepository
     }
 
     /**
+     * @return Pack[]
+     */
+    public function findAll(): array
+    {
+        return $this->findBy([], ['shorthand' => 'ASC']);
+    }
+
+    /**
      * @param array<string, mixed> $criterias
      *
      * @return Pack[] Returns an array of Card objects which have a name that contains the provided string

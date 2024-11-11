@@ -17,7 +17,7 @@ class PackController extends AbstractController
     public function index(Pack $pack): Response
     {
         return $this->forward('\App\Controller\SearchController::search', [
-            'form' => $this->createForm(SimpleCardSearchType::class, new SimpleCardSearch('p:' . $pack->getId()), [
+            'form' => $this->createForm(SimpleCardSearchType::class, new SimpleCardSearch('p:' . $pack->getShorthand()), [
                 'action' => $this->generateUrl('app_search_cards'),
                 'method' => 'GET',
             ]),

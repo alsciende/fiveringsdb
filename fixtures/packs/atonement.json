@@ -1,9 +1,10 @@
 {
+    "cycle_id": "dominion",
+    "ffg_id": "L5C34",
     "id": "atonement",
     "name": "Atonement",
     "position": 6,
-    "size": 24,
     "release_date": "2020-10-02",
-    "ffg_id": "L5C34",
-    "cycle_id": "dominion"
+    "shorthand": "34",
+    "size": 24
 }

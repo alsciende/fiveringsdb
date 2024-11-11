@@ -1,9 +1,10 @@
 {
+    "cycle_id": "core",
+    "ffg_id": "L5C01",
     "id": "core",
     "name": "Core Set",
     "position": 1,
-    "size": 350,
     "release_date": "2017-10-05",
-    "ffg_id": "L5C01",
-    "cycle_id": "core"
+    "shorthand": "01",
+    "size": 350
 }

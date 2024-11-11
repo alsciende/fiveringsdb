@@ -1,9 +1,10 @@
 {
+    "cycle_id": "elemental",
+    "ffg_id": "L5C12",
     "id": "the-ebb-and-flow",
     "name": "The Ebb and Flow",
     "position": 4,
-    "size": 20,
     "release_date": "2018-07-19",
-    "ffg_id": "L5C12",
-    "cycle_id": "elemental"
+    "shorthand": "12",
+    "size": 20
 }

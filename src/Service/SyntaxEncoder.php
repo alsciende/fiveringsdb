@@ -50,7 +50,7 @@ class SyntaxEncoder
         }
 
         if ($search->getPack() instanceof Pack) {
-            $queryParts[] = sprintf('%s:%s', Operand::Pack->value, $search->getPack()->getId());
+            $queryParts[] = sprintf('%s:%s', Operand::Pack->value, $search->getPack()->getShorthand());
         }
 
         if (is_string($search->getIllustrator())) {
