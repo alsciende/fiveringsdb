@@ -2,7 +2,7 @@ twig:
     form_themes: ['bootstrap_5_layout.html.twig']
     file_name_pattern: '*.twig'
     globals:
-        factions: '@App\Service\FactionService'
+        clans: '@App\Service\ClanService'
         packs: '@App\Service\PackService'
 
 when@test:

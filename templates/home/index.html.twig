@@ -1,13 +1,13 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}SovereignDB - Card Database for Sovereign: Fall of Wormwood{% endblock %}
+{% block title %}FiveRingsDB - Card Database for Legend of the Five Rings{% endblock %}
 
 {% block body %}
     <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="{{ asset('images/talent.png') }}" alt="" width="300" height="300">
-        <h1 class="display-5 fw-bold text-body-emphasis">SovereignDB</h1>
+        <img class="d-block mx-auto mb-4" src="{{ asset('images/img.png') }}" alt="" height="300">
+        <h1 class="display-5 fw-bold text-body-emphasis">FiveRingsDB</h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly search for cards of the game<br>Sovereign: Fall of Wormwood</p>
+            <p class="lead mb-4">Quickly search for cards of the game<br>Legends of the Five Rings</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                 {{ render(controller('App\\Controller\\SearchController::form')) }}
             </div>
@@ -16,11 +16,11 @@
             <div class="btn-group">
                 <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                    Factions
+                    Clans
                 </button>
                 <ul class="dropdown-menu">
-                    {% for id,name in factions.all %}
-                        <li><a class="dropdown-item" href="{{ path('app_faction', {faction:id}) }}">{{ name }}</a></li>
+                    {% for id,name in clans.all %}
+                        <li><a class="dropdown-item" href="{{ path('app_clan', {clan:id}) }}">{{ name }}</a></li>
                     {% endfor %}
                 </ul>
             </div>

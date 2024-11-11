@@ -2,7 +2,7 @@
     <div class="col">
         <h1 class="card-name card-name-display">{{ card.name }}</h1>
         <p>
-            Faction: {% include 'component/_faction_hyperlink.html.twig' with {faction:card.faction} %}
+            Clan: {% include 'component/_clan_hyperlink.html.twig' with {clan:card.clan} %}
         </p>
         {% if card.cost is not null %}
             <p>
@@ -16,7 +16,7 @@
             <p>
                 Attack: {{ card.attack }} &ndash;
                 Armor: {{ card.armor }} &ndash;
-                Health: {{ card.health }} {{ card.citizenToken | tokens }}
+                Health: {{ card.health }} {{ card.citizenToken  }}
             </p>
         {% endif %}
         <hr>

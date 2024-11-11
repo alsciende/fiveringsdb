@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace App\Tests\Controller;
 
-use App\Controller\FactionController;
+use App\Controller\ClanController;
 use App\Enum\Clan;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-#[CoversClass(FactionController::class)]
+#[CoversClass(ClanController::class)]
 class FactionControllerTest extends WebTestCase
 {
     /**

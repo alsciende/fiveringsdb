@@ -181,9 +181,12 @@ class Card extends AbstractCard
         return $this->traits;
     }
 
-    public function formatSubtypes(): string
+    public function formatTraits(): string
     {
-        return implode(' / ', array_map(ucfirst(...), $this->traits));
+        return implode(' ', array_map(
+            fn (string $trait) => ucfirst($trait) . '.',
+            $this->traits
+        ));
     }
 
     /**

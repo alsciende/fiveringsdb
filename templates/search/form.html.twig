@@ -1,30 +1,22 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}SovereignDB - Card Database for Sovereign: Fall of Wormwood{% endblock %}
+{% block title %}FiveRingsDB - Card Database for Legend of the Five Rings{% endblock %}
 
 {% block body %}
     <div class="container">
-        <h1>Search for cards of Sovereign: Fall of Wormwood</h1>
+        <h1>Search for cards of Legend of the Five Rings</h1>
         {{ form_start(form) }}
         <div class="row">
             <div class="col-sm">{{ form_row(form.name) }}</div>
             <div class="col-sm">{{ form_row(form.text) }}</div>
         </div>
         <div class="row">
-            <div class="col-sm">{{ form_row(form.faction) }}</div>
+            <div class="col-sm">{{ form_row(form.clan) }}</div>
             <div class="col-sm">{{ form_row(form.cost) }}</div>
         </div>
         <div class="row">
             <div class="col-sm">{{ form_row(form.type) }}</div>
-            <div class="col-sm">{{ form_row(form.subType) }}</div>
-        </div>
-        <div class="row">
-            <div class="col-sm">{{ form_row(form.attack) }}</div>
-            <div class="col-sm">{{ form_row(form.armor) }}</div>
-        </div>
-        <div class="row">
-            <div class="col-sm">{{ form_row(form.health) }}</div>
-            <div class="col-sm">{{ form_row(form.citizen) }}</div>
+            <div class="col-sm">{{ form_row(form.trait) }}</div>
         </div>
         <div class="row">
             <div class="col-sm">{{ form_row(form.pack) }}</div>

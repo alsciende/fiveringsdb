@@ -2,7 +2,7 @@
     <thead>
     <tr>
         <th scope="col">Name</th>
-        <th scope="col">Faction</th>
+        <th scope="col">Clan</th>
         <th scope="col">Cost</th>
         <th scope="col">Type</th>
         <th scope="col">Subtype</th>
@@ -12,10 +12,10 @@
     {% for card in pagerfanta %}
         <tr>
             <td><a href="{{ path('app_card', {id:card.id}) }}" class="card-name">{{ card.getName() }}</a></td>
-            <td><span class="icon-{{ card.faction.value }}"></span> {{ card.faction.value | trans({}, 'factions') }}</td>
+            <td><span class="icon-{{ card.clan.value }}"></span> {{ card.clan.value | trans({}, 'clans') }}</td>
             <td>{{ card.getCost() }}</td>
             <td>{{ card.type.value | trans({}, 'types') }}</td>
-            <td>{{ card.formatSubtypes() }}</td>
+            <td>{{ card.formatTraits() }}</td>
         </tr>
     {% endfor %}
     </tbody>

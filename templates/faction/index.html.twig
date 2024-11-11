@@ -1,10 +1,10 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}<span class="icon-{{ card.faction.value }}"></span> {{ faction.value | trans({}, 'factions') }}{% endblock %}
+{% block title %}<span class="icon-{{ card.clan.value }}"></span> {{ clan.value | trans({}, 'clans') }}{% endblock %}
 
 {% block body %}
     <div class="container">
-        <h1><span class="icon-{{ card.faction.value }}"></span> {{ faction.value | trans({}, 'factions') }}</h1>
+        <h1><span class="icon-{{ card.clan.value }}"></span> {{ clan.value | trans({}, 'clans') }}</h1>
         {{ include('_card_list.html.twig') }}
     </div>
 {% endblock %}

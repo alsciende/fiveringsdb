@@ -7,7 +7,7 @@
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                 data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                aria-selected="true">{{ packCard.pack.shorthand }}</button>
+                                aria-selected="true">{{ packCard.pack.id }}</button>
                     </li>
                 {% endfor %}
             </ul>
@@ -29,7 +29,7 @@
                 </a>
             </h2>
             <p>
-                Faction: {% include 'component/_faction_hyperlink.html.twig' with {faction:card.faction} %}
+                Clan: {% include 'component/_clan_hyperlink.html.twig' with {clan:card.clan} %}
             </p>
             {% if card.cost is not null %}
             <p>
@@ -43,7 +43,7 @@
                 <p>
                     Attack: {{ card.attack }} &ndash;
                     Armor: {{ card.armor }} &ndash;
-                    Health: {{ card.health }} {{ card.citizenToken | tokens }}
+                    Health: {{ card.health }} {{ card.citizenToken  }}
                 </p>
             {% endif %}
             <hr>
