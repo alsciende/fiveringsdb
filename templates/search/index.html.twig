@@ -17,7 +17,7 @@
                     {% for choice in form.view.vars.choices %}
                         <input type="radio" class="btn-check" name="view" value="{{ choice.value }}" id="view-{{ choice.value }}" autocomplete="off" {% if form.view.vars.value == choice.value %}checked{% endif %}>
                         <label class="btn btn-outline-primary" for="view-{{ choice.value }}">
-                            <i class="fa {{ choice.label }}" aria-hidden="true"></i>
+                            {{ ux_icon(choice.label) }}
                         </label>
                     {% endfor %}
                 </div>

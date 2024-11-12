@@ -32,10 +32,10 @@ class SimpleCardSearchType extends AbstractType
             ])
             ->add('view', ChoiceType::class, [
                 'choices' => [
-                    'fa-list' => 'table',
-                    'fa-th' => 'text',
-                    'fa-file-image-o' => 'image',
-                    'fa-id-card-o' => 'full',
+                    'fa:list' => 'table',
+                    'fa:th' => 'text',
+                    'fa:file-image-o' => 'image',
+                    'fa:id-card-o' => 'full',
                 ],
                 'empty_data' => 'table',
             ])
