@@ -24,4 +24,4 @@
 phpstan.neon
 ###< phpstan/phpstan ###
 
-assets/images/card_image
+assets/images/pack_cards/
