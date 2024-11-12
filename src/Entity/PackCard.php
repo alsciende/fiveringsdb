@@ -57,12 +57,13 @@ class PackCard extends AbstractPackCard
         return $this;
     }
 
+    #[\Override]
     public function getPosition(): ?int
     {
         return $this->position;
     }
 
-    public function setPosition(?int $position): void
+    public function setPosition(int $position): void
     {
         $this->position = $position;
     }
@@ -86,7 +87,7 @@ class PackCard extends AbstractPackCard
         return $this->flavor_text;
     }
 
-    public function setFlavorText(?string $flavor_text): static
+    public function setFlavorText(string $flavor_text): static
     {
         $this->flavor_text = $flavor_text;
 
@@ -99,7 +100,7 @@ class PackCard extends AbstractPackCard
         return $this->image_url;
     }
 
-    public function setImageUrl(?string $image_url): static
+    public function setImageUrl(string $image_url): static
     {
         $this->image_url = $image_url;
 
@@ -130,31 +131,5 @@ class PackCard extends AbstractPackCard
         $this->pack = $pack;
 
         return $this;
-    }
-
-    /**
-     * @return array<string, mixed>
-     */
-    public function toArray(): array
-    {
-        return [
-            'card_id' => $this->card->getId(),
-            'pack_id' => $this->pack->getId(),
-            'quantity' => $this->quantity,
-            'position' => $this->position,
-            'illustrator' => $this->illustrator,
-            'flavor_text' => $this->flavor_text,
-            'image_url' => $this->image_url,
-        ];
-    }
-
-    public function updateFrom(self $packCard): void
-    {
-        $this->setQuantity($packCard->getQuantity())
-            ->setPosition($packCard->getPosition())
-            ->setIllustrator($packCard->getIllustrator())
-            ->setFlavorText($packCard->getFlavorText())
-            ->setImageUrl($packCard->getImageUrl())
-        ;
     }
 }

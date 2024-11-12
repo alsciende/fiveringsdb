@@ -58,6 +58,7 @@ class Pack extends AbstractPack
         return $this;
     }
 
+    #[\Override]
     public function getShorthand(): ?string
     {
         return $this->shorthand;

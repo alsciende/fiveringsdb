@@ -21,9 +21,12 @@ class PackRepository extends ServiceEntityRepository
     /**
      * @return Pack[]
      */
+    #[\Override]
     public function findAll(): array
     {
-        return $this->findBy([], ['shorthand' => 'ASC']);
+        return $this->findBy([], [
+            'shorthand' => 'ASC',
+        ]);
     }
 
     /**

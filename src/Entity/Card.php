@@ -184,7 +184,7 @@ class Card extends AbstractCard
     public function formatTraits(): string
     {
         return implode(' ', array_map(
-            fn (string $trait) => ucfirst($trait) . '.',
+            fn (string $trait): string => ucfirst($trait) . '.',
             $this->traits
         ));
     }

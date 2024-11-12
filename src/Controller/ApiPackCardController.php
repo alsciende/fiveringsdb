@@ -13,10 +13,11 @@ use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\{JsonResponse};
-use Symfony\Component\HttpKernel\Attribute\MapRequestPayload;
+use Symfony\Component\HttpFoundation\{JsonResponse, Request};
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
+use Symfony\Component\Serializer\SerializerInterface;
 
 class ApiPackCardController extends AbstractController implements LoggerAwareInterface
 {
@@ -27,6 +28,7 @@ class ApiPackCardController extends AbstractController implements LoggerAwareInt
         private readonly PackRepository $packRepository,
         private readonly PackCardRepository $packCardRepository,
         private readonly EntityManagerInterface $entityManager,
+        private readonly SerializerInterface $serializer,
     ) {
     }
 
@@ -34,21 +36,28 @@ class ApiPackCardController extends AbstractController implements LoggerAwareInt
     public function put(
         string $packId,
         string $cardId,
-        #[MapRequestPayload] PackCard $packCard,
+        Request $request,
     ): JsonResponse {
         $card = $this->cardRepository->find($cardId);
         $pack = $this->packRepository->find($packId);
 
-        $existingPackCard = $this->packCardRepository->findOneBy(
+        $packCard = $this->packCardRepository->findOneBy(
             [
                 'pack' => $pack,
                 'card' => $card,
             ]
         );
 
-        if ($existingPackCard instanceof PackCard) {
+        if ($packCard instanceof PackCard) {
             // Update existing card if it exists
-            $existingPackCard->updateFrom($packCard);
+            $this->serializer->deserialize(
+                $request->getContent(),
+                PackCard::class,
+                'json',
+                [
+                    AbstractNormalizer::OBJECT_TO_POPULATE => $packCard,
+                ],
+            );
             $this->logger?->info(
                 'Updated pack',
                 [
@@ -58,6 +67,11 @@ class ApiPackCardController extends AbstractController implements LoggerAwareInt
             );
         } else {
             // Handle creation of a new card if it doesn't exist
+            $packCard = $this->serializer->deserialize(
+                $request->getContent(),
+                PackCard::class,
+                'json',
+            );
             $packCard->setCard($card);
             $packCard->setPack($pack);
             $this->entityManager->persist($packCard);

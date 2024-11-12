@@ -9,7 +9,9 @@ use Doctrine\Common\Collections\Collection;
 interface PackInterface
 {
     public function getId(): ?string;
+
     public function getShorthand(): ?string;
+
     public function getName(): ?string;
 
     /**

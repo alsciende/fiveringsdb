@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Service;
 
+use App\Entity\Pack;
 use App\Repository\PackRepository;
 
 /**
@@ -16,9 +17,14 @@ class PackService
     ) {
     }
 
-    public function findAll()
+    /**
+     * @return list<Pack>
+     */
+    public function findAll(): array
     {
-        return $this->repository->findBy([], array('username' => 'ASC'));
+        return $this->repository->findBy([], [
+            'username' => 'ASC',
+        ]);
     }
 
     /**
