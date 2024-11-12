@@ -52,7 +52,7 @@ class CardRepository extends ServiceEntityRepository
     }
 
     /**
-     * @return array<Card>
+     * @return list<Card>
      */
     public function findByPack(Pack $pack): array
     {

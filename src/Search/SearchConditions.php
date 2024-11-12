@@ -10,12 +10,12 @@ namespace App\Search;
 class SearchConditions
 {
     /**
-     * @var array<CardCondition>
+     * @var list<CardCondition>
      */
     private array $conditions = [];
 
     /**
-     * @param array<CardCondition> $conditions
+     * @param list<CardCondition> $conditions
      */
     public static function withConditions(array $conditions): self
     {
@@ -33,7 +33,7 @@ class SearchConditions
     }
 
     /**
-     * @return array<CardCondition>
+     * @return list<CardCondition>
      */
     public function getConditions(): array
     {

@@ -16,7 +16,7 @@ use Symfony\Component\DependencyInjection\Attribute\AutowireLocator;
 class SearchQueryBuilderRegistry
 {
     /**
-     * @var array<SearchQueryBuilderInterface>
+     * @var array<string,SearchQueryBuilderInterface>
      */
     private array $services = [];
 
@@ -42,7 +42,7 @@ class SearchQueryBuilderRegistry
     }
 
     /**
-     * @return array<string>
+     * @return list<string>
      */
     public function getNames(): array
     {
@@ -50,7 +50,7 @@ class SearchQueryBuilderRegistry
     }
 
     /**
-     * @return array<SearchQueryBuilderInterface>
+     * @return array<string,SearchQueryBuilderInterface>
      */
     public function getSearchQueryBuilders(): array
     {

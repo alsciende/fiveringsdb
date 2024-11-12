@@ -34,7 +34,7 @@ class Card extends AbstractCard
     private ?Type $type = null;
 
     /**
-     * @var array<string>|null
+     * @var list<string>|null
      */
     #[ORM\Column(type: 'text[]', nullable: true)]
     private ?array $traits = null;
@@ -43,7 +43,7 @@ class Card extends AbstractCard
     private ?string $text = null;
 
     /**
-     * @var array<string>|null
+     * @var list<string>|null
      */
     #[ORM\Column(type: 'text[]', nullable: true)]
     private ?array $allowedClans = null;
@@ -52,7 +52,7 @@ class Card extends AbstractCard
     private ?int $deckLimit = null;
 
     /**
-     * @var array<string>|null
+     * @var list<string>|null
      */
     #[ORM\Column(type: 'text[]', nullable: true)]
     private ?array $elements = null;
@@ -174,7 +174,7 @@ class Card extends AbstractCard
     }
 
     /**
-     * @return array<string>|null
+     * @return list<string>|null
      */
     public function getTraits(): ?array
     {
@@ -190,7 +190,7 @@ class Card extends AbstractCard
     }
 
     /**
-     * @param array<string> $traits
+     * @param list<string> $traits
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class Card extends AbstractCard
     }
 
     /**
-     * @return array<Pack>
+     * @return list<Pack>
      */
     #[Ignore]
     public function getPacks(): array

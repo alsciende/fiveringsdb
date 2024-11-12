@@ -12,7 +12,7 @@ trait CardTableTrait
     abstract public function getStyle(): SymfonyStyle;
 
     /**
-     * @param array<Card> $cards
+     * @param list<Card> $cards
      */
     public function printCards(array $cards): void
     {
