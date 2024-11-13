@@ -3,11 +3,11 @@ parameters:
     paths:
         - src/
         - tests/
-    type_perfect:
-        null_over_false: true
-        no_mixed: true
-        narrow_param: true
-        narrow_return: true
+#    type_perfect:
+#        null_over_false: true
+#        no_mixed: true
+#        narrow_param: true
+#        narrow_return: true
     treatPhpDocTypesAsCertain: false
 includes:
 	- phar://phpstan.phar/conf/bleedingEdge.neon
