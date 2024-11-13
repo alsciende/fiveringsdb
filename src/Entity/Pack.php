@@ -19,13 +19,13 @@ class Pack extends AbstractPack
     #[ORM\Id]
     #[ORM\GeneratedValue(strategy: 'NONE')]
     #[ORM\Column(type: Types::STRING)]
-    private ?string $id = null;
+    private string $id;
 
     #[ORM\Column(type: Types::STRING, length: 5)]
-    private ?string $shorthand = null;
+    private string $shorthand;
 
     #[ORM\Column(type: Types::STRING, length: 255)]
-    private ?string $name = null;
+    private string $name;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
     private ?int $size = null;

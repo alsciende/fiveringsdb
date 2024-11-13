@@ -8,3 +8,6 @@ parameters:
         no_mixed: true
         narrow_param: true
         narrow_return: true
+    treatPhpDocTypesAsCertain: false
+includes:
+	- phar://phpstan.phar/conf/bleedingEdge.neon

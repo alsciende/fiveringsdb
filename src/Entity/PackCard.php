@@ -26,10 +26,10 @@ class PackCard extends AbstractPackCard
     private ?Pack $pack = null;
 
     #[ORM\Column]
-    private ?int $quantity = null;
+    private int $quantity;
 
     #[ORM\Column]
-    private ?int $position = null;
+    private int $position;
 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $illustrator = null;

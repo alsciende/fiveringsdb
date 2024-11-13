@@ -36,8 +36,6 @@ test:
 	$(php) php bin/phpunit
 
 db:
-#	$(php) php bin/console doctrine:database:drop --force
-#	$(php) php bin/console doctrine:database:create
 	$(php) php bin/console doctrine:schema:drop -f
 	$(php) php bin/console doctrine:schema:create
 	$(php) php bin/console doctrine:fixtures:load -n

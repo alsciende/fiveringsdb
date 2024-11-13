@@ -19,19 +19,19 @@ class Card extends AbstractCard
 {
     #[ORM\Id]
     #[ORM\Column(length: 50)]
-    private ?string $id = null;
+    private string $id;
 
     #[ORM\Column(length: 50)]
-    private ?string $name = null;
+    private string $name;
 
     #[ORM\Column(type: Types::STRING, enumType: Clan::class)]
-    private ?Clan $clan = null;
+    private Clan $clan;
 
     #[ORM\Column(nullable: true)]
     private ?int $cost = null;
 
     #[ORM\Column(type: Types::STRING, enumType: Type::class)]
-    private ?Type $type = null;
+    private Type $type;
 
     /**
      * @var list<string>|null
@@ -88,7 +88,7 @@ class Card extends AbstractCard
     private ?Role $roleRestriction = null;
 
     #[ORM\Column(type: Types::STRING, enumType: Side::class)]
-    private ?Side $side = null;
+    private Side $side;
 
     #[ORM\Column(length: 5, nullable: true)]
     private ?string $strength = null;
@@ -97,7 +97,7 @@ class Card extends AbstractCard
     private ?string $strengthBonus = null;
 
     #[ORM\Column]
-    private ?bool $uniqueness = null;
+    private bool $uniqueness;
 
     /**
      * @var Collection<int, PackCard>
@@ -269,7 +269,7 @@ class Card extends AbstractCard
     }
 
     /**
-     * @param string[]|null $allowedClans
+     * @param list<string>|null $allowedClans
      */
     public function setAllowedClans(?array $allowedClans): void
     {
@@ -298,7 +298,7 @@ class Card extends AbstractCard
     }
 
     /**
-     * @param string[]|Element[]|null $elements
+     * @param list<string>|list<Element>|null $elements
      */
     public function setElements(?array $elements): void
     {
