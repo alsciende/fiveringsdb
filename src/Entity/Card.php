@@ -100,15 +100,15 @@ class Card extends AbstractCard
     private bool $uniqueness;
 
     /**
-     * @var Collection<int, PackCard>
+     * @var Collection<int, Printing>
      */
-    #[ORM\OneToMany(targetEntity: PackCard::class, mappedBy: 'card', cascade: ['persist', 'remove'])]
+    #[ORM\OneToMany(targetEntity: Printing::class, mappedBy: 'card', cascade: ['persist', 'remove'])]
     #[Ignore]
-    private Collection $packCards;
+    private Collection $printings;
 
     public function __construct()
     {
-        $this->packCards = new ArrayCollection();
+        $this->printings = new ArrayCollection();
     }
 
     #[\Override]
@@ -214,32 +214,32 @@ class Card extends AbstractCard
     }
 
     /**
-     * @return Collection<int, PackCard>
+     * @return Collection<int, Printing>
      */
     #[\Override]
-    public function getPackCards(): Collection
+    public function getPrintings(): Collection
     {
-        return $this->packCards;
+        return $this->printings;
     }
 
     #[\Override]
-    public function addPackCard(PackCard $packCard): static
+    public function addPrinting(Printing $printing): static
     {
-        if (! $this->packCards->contains($packCard)) {
-            $this->packCards->add($packCard);
-            $packCard->setCard($this);
+        if (! $this->printings->contains($printing)) {
+            $this->printings->add($printing);
+            $printing->setCard($this);
         }
 
         return $this;
     }
 
     #[\Override]
-    public function removePackCard(PackCard $packCard): static
+    public function removePrinting(Printing $printing): static
     {
-        if ($this->packCards->removeElement($packCard)) {
+        if ($this->printings->removeElement($printing)) {
             // set the owning side to null (unless already changed)
-            if ($packCard->getCard() === $this) {
-                $packCard->setCard(null);
+            if ($printing->getCard() === $this) {
+                $printing->setCard(null);
             }
         }
 
@@ -253,8 +253,8 @@ class Card extends AbstractCard
     public function getPacks(): array
     {
         $packs = [];
-        foreach ($this->getPackCards() as $packCard) {
-            $packs[] = $packCard->getPack();
+        foreach ($this->getPrintings() as $printing) {
+            $packs[] = $printing->getPack();
         }
 
         return $packs;

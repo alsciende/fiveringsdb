@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Entity;
 
-abstract class AbstractPackCard implements PackCardInterface, \Stringable
+abstract class AbstractPrinting implements PrintingInterface, \Stringable
 {
     #[\Override]
     public function __toString(): string

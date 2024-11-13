@@ -29,7 +29,7 @@ readonly class SearchQueryBuilder
         $qb = $this->entityManager->createQueryBuilder();
         $qb->select('c')
             ->from(Card::class, 'c')
-            ->leftJoin('c.packCards', 'pc')
+            ->leftJoin('c.printings', 'pc')
             ->addSelect('pc')
             ->leftJoin('pc.pack', 'p')
             ->addSelect('p')

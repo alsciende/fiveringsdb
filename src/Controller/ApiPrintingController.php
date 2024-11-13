@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use App\Entity\Card;
-use App\Entity\PackCard;
+use App\Entity\Printing;
 use App\Repository\CardRepository;
-use App\Repository\PackCardRepository;
 use App\Repository\PackRepository;
+use App\Repository\PrintingRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
@@ -19,20 +19,20 @@ use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 use Symfony\Component\Serializer\SerializerInterface;
 
-class ApiPackCardController extends AbstractController implements LoggerAwareInterface
+class ApiPrintingController extends AbstractController implements LoggerAwareInterface
 {
     use LoggerAwareTrait;
 
     public function __construct(
         private readonly CardRepository $cardRepository,
         private readonly PackRepository $packRepository,
-        private readonly PackCardRepository $packCardRepository,
+        private readonly PrintingRepository $printingRepository,
         private readonly EntityManagerInterface $entityManager,
         private readonly SerializerInterface $serializer,
     ) {
     }
 
-    #[Route('/pack_cards/{packId}/{cardId}', name: 'app_put_pack_card', methods: ['PUT'])]
+    #[Route('/packs/{packId}/cards/{cardId}', name: 'app_put_printing', methods: ['PUT'])]
     public function put(
         string $packId,
         string $cardId,
@@ -41,21 +41,21 @@ class ApiPackCardController extends AbstractController implements LoggerAwareInt
         $card = $this->cardRepository->find($cardId);
         $pack = $this->packRepository->find($packId);
 
-        $packCard = $this->packCardRepository->findOneBy(
+        $printing = $this->printingRepository->findOneBy(
             [
                 'pack' => $pack,
                 'card' => $card,
             ]
         );
 
-        if ($packCard instanceof PackCard) {
+        if ($printing instanceof Printing) {
             // Update existing card if it exists
             $this->serializer->deserialize(
                 $request->getContent(),
-                PackCard::class,
+                Printing::class,
                 'json',
                 [
-                    AbstractNormalizer::OBJECT_TO_POPULATE => $packCard,
+                    AbstractNormalizer::OBJECT_TO_POPULATE => $printing,
                 ],
             );
             $this->logger?->info(
@@ -67,14 +67,14 @@ class ApiPackCardController extends AbstractController implements LoggerAwareInt
             );
         } else {
             // Handle creation of a new card if it doesn't exist
-            $packCard = $this->serializer->deserialize(
+            $printing = $this->serializer->deserialize(
                 $request->getContent(),
-                PackCard::class,
+                Printing::class,
                 'json',
             );
-            $packCard->setCard($card);
-            $packCard->setPack($pack);
-            $this->entityManager->persist($packCard);
+            $printing->setCard($card);
+            $printing->setPack($pack);
+            $this->entityManager->persist($printing);
             $this->logger?->info(
                 'Created new pack',
                 [
@@ -86,10 +86,10 @@ class ApiPackCardController extends AbstractController implements LoggerAwareInt
 
         $this->entityManager->flush();
 
-        return $this->json($packCard);
+        return $this->json($printing);
     }
 
-    #[Route('/pack_cards/{packId}/{cardId}', name: 'app_get_pack_card', methods: ['GET'])]
+    #[Route('/packs/{packId}/cards/{cardId}', name: 'app_get_printing', methods: ['GET'])]
     public function get(
         string $packId,
         string $cardId,
@@ -97,15 +97,15 @@ class ApiPackCardController extends AbstractController implements LoggerAwareInt
         $card = $this->cardRepository->find($cardId);
         $pack = $this->packRepository->find($packId);
 
-        $packCard = $this->packCardRepository->findOneBy(
+        $printing = $this->printingRepository->findOneBy(
             [
                 'pack' => $pack,
                 'card' => $card,
             ]
         );
 
-        if ($packCard instanceof PackCard) {
-            return $this->json($packCard);
+        if ($printing instanceof Printing) {
+            return $this->json($printing);
         }
 
         throw new NotFoundHttpException();

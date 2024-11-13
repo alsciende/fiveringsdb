@@ -4,24 +4,24 @@ declare(strict_types=1);
 
 namespace App\Entity;
 
-use App\Repository\PackCardRepository;
+use App\Repository\PrintingRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping\Cache;
 
-#[ORM\Entity(repositoryClass: PackCardRepository::class)]
+#[ORM\Entity(repositoryClass: PrintingRepository::class)]
 #[Cache(usage: 'READ_ONLY')]
-class PackCard extends AbstractPackCard
+class Printing extends AbstractPrinting
 {
     #[ORM\Id]
     #[ORM\Column(type: 'integer')]
     #[ORM\GeneratedValue(strategy: 'IDENTITY')]
     private ?int $id = null;
 
-    #[ORM\ManyToOne(targetEntity: Card::class, inversedBy: 'packCards')]
+    #[ORM\ManyToOne(targetEntity: Card::class, inversedBy: 'printings')]
     #[ORM\JoinColumn(name: 'card_id', referencedColumnName: 'id')]
     private ?Card $card = null;
 
-    #[ORM\ManyToOne(targetEntity: Pack::class, inversedBy: 'packCards')]
+    #[ORM\ManyToOne(targetEntity: Pack::class, inversedBy: 'printings')]
     #[ORM\JoinColumn(name: 'pack_id', referencedColumnName: 'id')]
     private ?Pack $pack = null;
 

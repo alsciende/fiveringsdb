@@ -6,7 +6,7 @@ namespace App\Repository;
 
 use App\Entity\Card;
 use App\Entity\Pack;
-use App\Entity\PackCard;
+use App\Entity\Printing;
 use App\SearchQueryBuilder\SearchQueryBuilder;
 use App\Service\SyntaxDecoder;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
@@ -59,7 +59,7 @@ class CardRepository extends ServiceEntityRepository
         $qb = $this->getEntityManager()->createQueryBuilder();
         $qb
             ->select('c')->from(Card::class, 'c')
-            ->join(PackCard::class, 'pc', Join::WITH, 'pc.pack = :pack')
+            ->join(Printing::class, 'pc', Join::WITH, 'pc.pack = :pack')
             ->setParameter('pack', $pack);
 
         return $qb->getQuery()->setCacheable(true)->getResult();
@@ -71,7 +71,7 @@ class CardRepository extends ServiceEntityRepository
     public function getCard(string $id): ?Card
     {
         return $this->createQueryBuilder('c')
-            ->leftJoin('c.packCards', 'pc')
+            ->leftJoin('c.printings', 'pc')
             ->addSelect('pc')
             ->leftJoin('pc.pack', 'p')
             ->addSelect('p')

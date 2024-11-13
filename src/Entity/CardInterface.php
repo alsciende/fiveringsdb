@@ -13,11 +13,11 @@ interface CardInterface
     public function getName(): ?string;
 
     /**
-     * @return Collection<int, PackCard>
+     * @return Collection<int, Printing>
      */
-    public function getPackCards(): Collection;
+    public function getPrintings(): Collection;
 
-    public function addPackCard(PackCard $packCard): static;
+    public function addPrinting(Printing $printing): static;
 
-    public function removePackCard(PackCard $packCard): static;
+    public function removePrinting(Printing $printing): static;
 }

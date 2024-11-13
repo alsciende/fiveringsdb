@@ -34,15 +34,15 @@ class Pack extends AbstractPack
     private ?\DateTimeInterface $release_date = null;
 
     /**
-     * @var Collection<int, PackCard>
+     * @var Collection<int, Printing>
      */
-    #[ORM\OneToMany(targetEntity: PackCard::class, mappedBy: 'pack')]
+    #[ORM\OneToMany(targetEntity: Printing::class, mappedBy: 'pack')]
     #[Ignore]
-    private Collection $packCards;
+    private Collection $printings;
 
     public function __construct()
     {
-        $this->packCards = new ArrayCollection();
+        $this->printings = new ArrayCollection();
     }
 
     #[\Override]
@@ -106,41 +106,41 @@ class Pack extends AbstractPack
         return $this;
     }
 
-    public function getCardAt(int $i): ?PackCard
+    public function getCardAt(int $i): ?Printing
     {
-        assert($i >= 0 && $i < $this->packCards->count(),
+        assert($i >= 0 && $i < $this->printings->count(),
             sprintf(
                 '%s: index out of range.  Highest index: %s',
                 $i,
-                $this->packCards->count() - 1
+                $this->printings->count() - 1
             ),
         );
 
-        return $this->packCards->get($i);
+        return $this->printings->get($i);
     }
 
     /**
-     * @return Collection<int, PackCard>
+     * @return Collection<int, Printing>
      */
     #[\Override]
-    public function getPackCards(): Collection
+    public function getPrintings(): Collection
     {
-        return $this->packCards;
+        return $this->printings;
     }
 
-    public function addCard(PackCard $card): static
+    public function addCard(Printing $card): static
     {
-        if (! $this->packCards->contains($card)) {
-            $this->packCards->add($card);
+        if (! $this->printings->contains($card)) {
+            $this->printings->add($card);
             $card->setPack($this);
         }
 
         return $this;
     }
 
-    public function removeCard(PackCard $card): static
+    public function removeCard(Printing $card): static
     {
-        if ($this->packCards->removeElement($card)) {
+        if ($this->printings->removeElement($card)) {
             // set the owning side to null (unless already changed)
             if ($card->getPack() === $this) {
                 $card->setPack(null);

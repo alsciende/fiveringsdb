@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace App\DataFixtures;
 
-use App\Dto\DtoPackCard;
+use App\Dto\DtoPrinting;
 use App\Entity\Card;
 use App\Entity\Pack;
-use App\Entity\PackCard;
+use App\Entity\Printing;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Persistence\ObjectManager;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Serializer\SerializerInterface;
 
-class PackCardFixtures extends Fixture implements DependentFixtureInterface
+class PrintingFixtures extends Fixture implements DependentFixtureInterface
 {
     public function __construct(
         private readonly SerializerInterface $serializer,
@@ -29,19 +29,19 @@ class PackCardFixtures extends Fixture implements DependentFixtureInterface
         $packRepository = $manager->getRepository(Pack::class);
 
         $finder = new Finder();
-        $finder->files()->in($this->projectDir . '/fixtures/pack_cards/')->name('*.json');
+        $finder->files()->in($this->projectDir . '/fixtures/printings/')->name('*.json');
         foreach ($finder as $file) {
-            /** @var DtoPackCard $dto */
-            $dto = $this->serializer->deserialize($file->getContents(), DtoPackCard::class, 'json');
-            $packCard = new PackCard();
-            $packCard->setCard($cardRepository->find($dto->cardId));
-            $packCard->setPack($packRepository->find($dto->packId));
-            $packCard->setIllustrator($dto->illustrator);
-            $packCard->setFlavorText($dto->flavorText);
-            $packCard->setPosition($dto->position);
-            $packCard->setImageUrl($dto->imageUrl);
-            $packCard->setQuantity($dto->quantity);
-            $manager->persist($packCard);
+            /** @var DtoPrinting $dto */
+            $dto = $this->serializer->deserialize($file->getContents(), DtoPrinting::class, 'json');
+            $printing = new Printing();
+            $printing->setCard($cardRepository->find($dto->cardId));
+            $printing->setPack($packRepository->find($dto->packId));
+            $printing->setIllustrator($dto->illustrator);
+            $printing->setFlavorText($dto->flavorText);
+            $printing->setPosition($dto->position);
+            $printing->setImageUrl($dto->imageUrl);
+            $printing->setQuantity($dto->quantity);
+            $manager->persist($printing);
         }
 
         $manager->flush();

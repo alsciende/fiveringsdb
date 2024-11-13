@@ -15,7 +15,7 @@ interface PackInterface
     public function getName(): ?string;
 
     /**
-     * @return Collection<int, PackCard>
+     * @return Collection<int, Printing>
      */
-    public function getPackCards(): Collection;
+    public function getPrintings(): Collection;
 }
