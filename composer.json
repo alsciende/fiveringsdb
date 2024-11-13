@@ -108,7 +108,7 @@
         "alsciende/make-registry-bundle": "^1.0",
         "doctrine/doctrine-fixtures-bundle": "^3.6",
         "phpstan/extension-installer": "^1.4",
-        "phpstan/phpstan": "^1.11",
+        "phpstan/phpstan": "^1.12",
         "phpstan/phpstan-deprecation-rules": "^1.2",
         "phpstan/phpstan-doctrine": "^1.5",
         "phpstan/phpstan-symfony": "^1.4",
